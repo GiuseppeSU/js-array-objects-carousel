@@ -5,18 +5,18 @@
 }
 
 .container {
-    width: 70vw;
+    width: 700px;
     margin: auto;
 }
 
 .slider {
-    height: 90vh;
+    
     margin-top: 30px;
     position: relative;
 }
 
 .image-container {
-    height: 100%;
+    width: 700px;
 }
 
 .image-wrapper {
@@ -37,12 +37,12 @@
 
 #prev {
     top: 50%;
-    left: 17%;
+    left: 5%;
 }
 
 #next {
-    right: 17%;
-    top: 51%;
+    right: 5%;
+    top: 50%;
 
 }
 
@@ -55,7 +55,7 @@
 }
 
 .navigation {
-    transform: translateY(-50%);
+   
     position: absolute;
     background-color: rgb(204, 204, 204);
     display: flex;
